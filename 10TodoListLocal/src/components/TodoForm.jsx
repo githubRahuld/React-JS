@@ -8,7 +8,6 @@ function TodoForm() {
 
   const add = (e) => {
     e.preventDefault();
-
     addTodo({ todo: todo, complete: false });
     setTodo(""); //empty input field
   };
